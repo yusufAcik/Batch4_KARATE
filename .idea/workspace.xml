@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f467b8ec-34a7-40d2-a13c-6788d1a67cec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kraft/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/APITest3.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/AssertionInKarate2.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/CreateKraftUserAndGetToken6.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/FirstKarateTest1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/KraftPostMethodWithJava5.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/KraftUserTestWithToken7.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/ParametersTest4.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/KraftDataGenerator.java" afterDir="false" />
+    <list default="true" id="f467b8ec-34a7-40d2-a13c-6788d1a67cec" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/DataClassTests8.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/DataDrivenTesting9.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +46,84 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: get user information">
+}</component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Check first 5 user with a csv file">
+    <configuration name="Scenario: Check first 5 user in Kraft" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/DataDrivenTesting9.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Batch4_KARATE_YA" />
+      <option name="NAME_FILTER" value="^Check first 5 user in Kraft$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Check first 5 user in Kraft$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check first 5 user in Kraft" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check first 5 user with a csv file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/DataDrivenTesting9.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Batch4_KARATE_YA" />
+      <option name="NAME_FILTER" value="^Check first 5 user with a csv file$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Check first 5 user with a csv file$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check first 5 user with a csv file" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Register a new user with the help of Java" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/KraftPostMethodWithJava5.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Batch4_KARATE" />
+      <module name="Batch4_KARATE_YA" />
       <option name="NAME_FILTER" value="^Register a new user with the help of Java$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Register a new user with the help of Java$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Register a new user with the help of Java" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: get all users with kraft" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/DataClassTests8.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Batch4_KARATE_YA" />
+      <option name="NAME_FILTER" value="^get all users with kraft$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^get all users with kraft$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: get all users with kraft" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +140,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/KraftUserTestWithToken7.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Batch4_KARATE" />
+      <module name="Batch4_KARATE_YA" />
       <option name="NAME_FILTER" value="^get user information$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^get user information$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: get user information" />
@@ -106,73 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: query parameters-2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ParametersTest4.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Batch4_KARATE" />
-      <option name="NAME_FILTER" value="^query parameters\-2$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^query parameters\-2$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: query parameters-2" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: register a new user with Kraft" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/KraftPostMethodWithJava5.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Batch4_KARATE" />
-      <option name="NAME_FILTER" value="^register a new user with Kraft$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^register a new user with Kraft$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: register a new user with Kraft" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: verification with loop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ParametersTest4.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Batch4_KARATE" />
-      <option name="NAME_FILTER" value="^verification with loop$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^verification with loop$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: verification with loop" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Check first 5 user with a csv file" />
+        <item itemvalue="Cucumber Java.Scenario: Check first 5 user in Kraft" />
+        <item itemvalue="Cucumber Java.Scenario: get all users with kraft" />
         <item itemvalue="Cucumber Java.Scenario: get user information" />
         <item itemvalue="Cucumber Java.Scenario: Register a new user with the help of Java" />
-        <item itemvalue="Cucumber Java.Scenario: register a new user with Kraft" />
-        <item itemvalue="Cucumber Java.Scenario: verification with loop" />
-        <item itemvalue="Cucumber Java.Scenario: query parameters-2" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +174,18 @@
       <option name="presentableId" value="Default" />
       <updated>1694961267775</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1694991591719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694991591719</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
